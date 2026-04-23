@@ -6,7 +6,7 @@
 
 @layer base {
   *, *::before, *::after { box-sizing: border-box; }
-  html { scroll-behavior: smooth; background-color: #0a0a0a; color: #f5f0eb; }
+  html { scroll-behavior: smooth; background-color: #070d08; color: #f5f0eb; }
   body { margin: 0; font-family: 'DM Sans', sans-serif; font-weight: 300; -webkit-font-smoothing: antialiased; }
   h1, h2, h3, h4 { font-family: 'Cormorant Garamond', serif; margin: 0; }
   p { margin: 0; }
@@ -25,5 +25,24 @@
   .reveal-delay-2 { transition-delay: 0.2s; }
   .reveal-delay-3 { transition-delay: 0.3s; }
   .reveal-delay-4 { transition-delay: 0.4s; }
-  .gold-line { width: 48px; height: 1px; background: #c8a96e; display: block; }
+
+  .gold-line  { width: 48px; height: 1px; background: #c8a96e; display: block; }
+  .green-line { width: 48px; height: 1px; background: #2d8a4e; display: block; }
+
+  /* Oggún — iron chevron border (hard work, forest, iron) */
+  .ogun-chevrons {
+    background-image: repeating-linear-gradient(
+      -45deg,
+      transparent 0px,
+      transparent 6px,
+      rgba(26, 92, 46, 0.07) 6px,
+      rgba(26, 92, 46, 0.07) 12px
+    );
+  }
+
+  /* Orunmila/Ifa — 16-point wisdom grid */
+  .ifa-grid {
+    background-image: radial-gradient(circle, rgba(200, 169, 110, 0.14) 1px, transparent 1px);
+    background-size: 28px 28px;
+  }
 }
