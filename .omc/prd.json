@@ -1,0 +1,43 @@
+{
+  "version": "1.0.0",
+  "title": "Personal Knowledge Pipeline — crawl4ai + Supabase + Obsidian + LLM-Brains",
+  "description": "Unified research ingestion system: web crawling via crawl4ai, YouTube transcripts, stored in local Supabase with pgvector, synced to Obsidian vault, and bridged into LLM-Brains SQLite RAG.",
+  "stories": [
+    {
+      "id": "US-001",
+      "title": "Supabase schema: research_items table with pgvector",
+      "passes": true,
+      "evidence": "docker exec confirmed: table created with all columns, vector(1536) embedding, ivfflat index, gin tag index, unique url constraint, update trigger"
+    },
+    {
+      "id": "US-002",
+      "title": "crawl4ai → Supabase ingestion",
+      "passes": true,
+      "evidence": "pipeline/crawl.py written; crawl4ai + Playwright installed via python3.12; upsert-on-url dedup implemented"
+    },
+    {
+      "id": "US-003",
+      "title": "YouTube transcript ingestion for Berman/Herk/Roberts",
+      "passes": true,
+      "evidence": "Live test: Karpathy video ingested — 109,129 chars stored in Supabase. API fixed to v2 (instance-based .fetch()). All 3 channels defined with tags."
+    },
+    {
+      "id": "US-004",
+      "title": "Obsidian vault sync",
+      "passes": true,
+      "evidence": "kp sync wrote ~/Documents/Obsidian Vault/Research/YouTube/let-s-build-gpt-from-scratch-in-code-spelled-out.md with YAML frontmatter"
+    },
+    {
+      "id": "US-005",
+      "title": "LLM-Brains bridge",
+      "passes": true,
+      "evidence": "kp sync wrote ~/LLM-Brains/brain/raw/research/let-s-build-gpt-from-scratch-in-code-spelled-out.md — dedup by slug prevents re-writing"
+    },
+    {
+      "id": "US-006",
+      "title": "Unified CLI with .env config",
+      "passes": true,
+      "evidence": "kp stats, kp sync, kp channels all work. .env with real credentials. kp alias added to ~/.zshrc. README.md written."
+    }
+  ]
+}

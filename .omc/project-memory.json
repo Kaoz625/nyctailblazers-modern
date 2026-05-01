@@ -1,0 +1,164 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1777179272895,
+  "projectRoot": "/Users/markususche/Documents/NYCTailblazers/nyctailblazers-modern",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "tsconfig.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "react",
+        "version": "19.2.5",
+        "category": "frontend"
+      },
+      {
+        "name": "react-dom",
+        "version": "19.2.5",
+        "category": "frontend"
+      },
+      {
+        "name": "vite",
+        "version": "8.0.9",
+        "category": "build"
+      }
+    ],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "npm run build",
+    "testCommand": null,
+    "lintCommand": "npm run lint",
+    "devCommand": "npm run dev",
+    "scripts": {
+      "dev": "vite",
+      "build": "tsc -b && vite build",
+      "lint": "eslint .",
+      "preview": "vite preview",
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d dist"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": "type-based"
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "public",
+      "src"
+    ],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "dist": {
+      "path": "dist",
+      "purpose": "Distribution/build output",
+      "fileCount": 3,
+      "lastAccessed": 1777179271850,
+      "keyFiles": [
+        "favicon.svg",
+        "icons.svg",
+        "index.html"
+      ]
+    },
+    "images": {
+      "path": "images",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1777179271850,
+      "keyFiles": []
+    },
+    "public": {
+      "path": "public",
+      "purpose": "Public files",
+      "fileCount": 2,
+      "lastAccessed": 1777179272116,
+      "keyFiles": [
+        "favicon.svg",
+        "icons.svg"
+      ]
+    },
+    "src": {
+      "path": "src",
+      "purpose": "Source code",
+      "fileCount": 4,
+      "lastAccessed": 1777179272117,
+      "keyFiles": [
+        "App.css",
+        "App.tsx",
+        "index.css",
+        "main.tsx"
+      ]
+    },
+    "dist/assets": {
+      "path": "dist/assets",
+      "purpose": "Static assets",
+      "fileCount": 2,
+      "lastAccessed": 1777179272118,
+      "keyFiles": [
+        "index-38OGWCJb.css",
+        "index-C5vZisd9.js"
+      ]
+    },
+    "src/assets": {
+      "path": "src/assets",
+      "purpose": "Static assets",
+      "fileCount": 3,
+      "lastAccessed": 1777179272119,
+      "keyFiles": [
+        "hero.png",
+        "react.svg",
+        "vite.svg"
+      ]
+    },
+    "src/components": {
+      "path": "src/components",
+      "purpose": "UI components",
+      "fileCount": 4,
+      "lastAccessed": 1777179272119,
+      "keyFiles": [
+        "Footer.tsx",
+        "Logo.tsx",
+        "Nav.tsx"
+      ]
+    },
+    "src/pages": {
+      "path": "src/pages",
+      "purpose": "Page components",
+      "fileCount": 7,
+      "lastAccessed": 1777179272119,
+      "keyFiles": [
+        "Agents.tsx",
+        "Apps.tsx",
+        "Contact.tsx"
+      ]
+    }
+  },
+  "hotPaths": [],
+  "userDirectives": []
+}

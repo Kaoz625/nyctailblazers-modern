@@ -1,0 +1,154 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - navigation [ref=e5]:
+      - link "NYC Tailblazers — two dogs NYC·Tailblazers" [ref=e6] [cursor=pointer]:
+        - /url: /NYCTailblazers-Modern
+        - img "NYC Tailblazers — two dogs" [ref=e7]
+        - generic [ref=e34]: NYC·Tailblazers
+      - list [ref=e35]:
+        - listitem [ref=e36]:
+          - link "Dog Walking" [ref=e37] [cursor=pointer]:
+            - /url: /NYCTailblazers-Modern/dog-walking
+        - listitem [ref=e38]:
+          - link "Cooking" [ref=e39] [cursor=pointer]:
+            - /url: /NYCTailblazers-Modern/cooking
+        - listitem [ref=e40]:
+          - link "Websites" [ref=e41] [cursor=pointer]:
+            - /url: /NYCTailblazers-Modern/websites
+        - listitem [ref=e42]:
+          - link "Apps" [ref=e43] [cursor=pointer]:
+            - /url: /NYCTailblazers-Modern/apps
+        - listitem [ref=e44]:
+          - link "AI Agents" [ref=e45] [cursor=pointer]:
+            - /url: /NYCTailblazers-Modern/agents
+        - listitem [ref=e46]:
+          - link "Contact" [ref=e47] [cursor=pointer]:
+            - /url: /NYCTailblazers-Modern/contact
+  - main [ref=e48]:
+    - generic [ref=e49]:
+      - img
+      - generic [ref=e50]:
+        - img "NYC Tailblazers — two dogs" [ref=e52]
+        - paragraph [ref=e81]: New York City
+        - heading "NYC Tailblazers" [level=1] [ref=e82]:
+          - text: NYC
+          - text: Tailblazers
+        - generic [ref=e83]:
+          - paragraph [ref=e84]: Building
+          - paragraph [ref=e85]: Websites.
+        - paragraph [ref=e86]: One person. Five crafts. Dog walking, cooking, premium websites, app development, and AI automation — all built with the same obsessive care.
+        - generic [ref=e87]:
+          - link "Start a Project" [ref=e88] [cursor=pointer]:
+            - /url: /NYCTailblazers-Modern/contact
+          - link "Book a Walk" [ref=e89] [cursor=pointer]:
+            - /url: /NYCTailblazers-Modern/dog-walking
+    - generic [ref=e97]:
+      - generic [ref=e98]:
+        - paragraph [ref=e100]: Services
+        - heading "Five ways to work with Markus" [level=2] [ref=e101]:
+          - text: Five ways to work
+          - text: with Markus
+      - generic [ref=e102]:
+        - link "01 Dog Walking Premium, trusted care for your dog across New York City. Daily walks, updates, and a bond your pet will love. Book a Walk →" [ref=e103] [cursor=pointer]:
+          - /url: /NYCTailblazers-Modern/dog-walking
+          - paragraph [ref=e104]: "01"
+          - heading "Dog Walking" [level=3] [ref=e105]
+          - paragraph [ref=e106]: Premium, trusted care for your dog across New York City. Daily walks, updates, and a bond your pet will love.
+          - generic [ref=e107]: Book a Walk →
+        - link "02 Cooking Bold flavors, cultural fusion, marinades built with soul. Private chef, meal prep, and pop-up events. See the Menu →" [ref=e108] [cursor=pointer]:
+          - /url: /NYCTailblazers-Modern/cooking
+          - paragraph [ref=e109]: "02"
+          - heading "Cooking" [level=3] [ref=e110]
+          - paragraph [ref=e111]: Bold flavors, cultural fusion, marinades built with soul. Private chef, meal prep, and pop-up events.
+          - generic [ref=e112]: See the Menu →
+        - link "03 Website Building Cinematic, high-converting websites built fast. From concept to live in days — not months. See the Work →" [ref=e113] [cursor=pointer]:
+          - /url: /NYCTailblazers-Modern/websites
+          - paragraph [ref=e114]: "03"
+          - heading "Website Building" [level=3] [ref=e115]
+          - paragraph [ref=e116]: Cinematic, high-converting websites built fast. From concept to live in days — not months.
+          - generic [ref=e117]: See the Work →
+        - link "04 App Development Mobile and web apps built with modern stacks. Clean code, beautiful interfaces, shipped on schedule. Explore Apps →" [ref=e118] [cursor=pointer]:
+          - /url: /NYCTailblazers-Modern/apps
+          - paragraph [ref=e119]: "04"
+          - heading "App Development" [level=3] [ref=e120]
+          - paragraph [ref=e121]: Mobile and web apps built with modern stacks. Clean code, beautiful interfaces, shipped on schedule.
+          - generic [ref=e122]: Explore Apps →
+        - link "05 AI Agent Systems Autonomous workflows powered by Claude. Let AI handle the repetitive so you focus on what matters. See AI Work →" [ref=e123] [cursor=pointer]:
+          - /url: /NYCTailblazers-Modern/agents
+          - paragraph [ref=e124]: "05"
+          - heading "AI Agent Systems" [level=3] [ref=e125]
+          - paragraph [ref=e126]: Autonomous workflows powered by Claude. Let AI handle the repetitive so you focus on what matters.
+          - generic [ref=e127]: See AI Work →
+    - generic [ref=e129]:
+      - paragraph [ref=e132]: What clients say
+      - generic [ref=e133]:
+        - generic [ref=e134]:
+          - paragraph [ref=e135]: "\"Markus built our site in under a week. It looks like we spent ten times more.\""
+          - paragraph [ref=e137]: Sarah K.
+          - paragraph [ref=e138]: Small Business Owner
+        - generic [ref=e139]:
+          - paragraph [ref=e140]: "\"Our dog comes home tired, happy, and completely cared for. We trust Markus completely.\""
+          - paragraph [ref=e142]: James & Priya T.
+          - paragraph [ref=e143]: NYC Pet Parents
+        - generic [ref=e144]:
+          - paragraph [ref=e145]: "\"The AI automation he set up saves our team hours every week. Genuinely transformative.\""
+          - paragraph [ref=e147]: Demi A.
+          - paragraph [ref=e148]: Startup Founder
+    - generic [ref=e150]:
+      - paragraph [ref=e151]: Ready?
+      - heading "Let's build something worth noticing." [level=2] [ref=e152]:
+        - text: Let's build something
+        - text: worth noticing.
+      - link "Get in Touch" [ref=e153] [cursor=pointer]:
+        - /url: /NYCTailblazers-Modern/contact
+  - contentinfo [ref=e154]:
+    - img [ref=e155]
+    - generic [ref=e158]:
+      - generic [ref=e159]:
+        - generic [ref=e160]:
+          - img
+          - paragraph [ref=e161]: NYC·Tailblazers
+          - paragraph [ref=e162]: New York City
+          - paragraph [ref=e163]: nyctailblazers.com
+        - generic [ref=e164]:
+          - paragraph [ref=e165]: Services
+          - list [ref=e166]:
+            - listitem [ref=e167]:
+              - link "Dog Walking" [ref=e168] [cursor=pointer]:
+                - /url: /NYCTailblazers-Modern/dog-walking
+            - listitem [ref=e169]:
+              - link "Cooking" [ref=e170] [cursor=pointer]:
+                - /url: /NYCTailblazers-Modern/cooking
+            - listitem [ref=e171]:
+              - link "Websites" [ref=e172] [cursor=pointer]:
+                - /url: /NYCTailblazers-Modern/websites
+            - listitem [ref=e173]:
+              - link "Apps" [ref=e174] [cursor=pointer]:
+                - /url: /NYCTailblazers-Modern/apps
+            - listitem [ref=e175]:
+              - link "AI Agents" [ref=e176] [cursor=pointer]:
+                - /url: /NYCTailblazers-Modern/agents
+            - listitem [ref=e177]:
+              - link "Contact" [ref=e178] [cursor=pointer]:
+                - /url: /NYCTailblazers-Modern/contact
+        - generic [ref=e179]:
+          - paragraph [ref=e180]: Follow
+          - list [ref=e181]:
+            - listitem [ref=e182]:
+              - link "Instagram — Dog Walking @nyctailblazers" [ref=e183] [cursor=pointer]:
+                - /url: https://www.instagram.com/nyctailblazers/
+                - generic [ref=e184]: Instagram — Dog Walking
+                - generic [ref=e185]: "@nyctailblazers"
+            - listitem [ref=e186]:
+              - link "Facebook — Dog Walking NYC Tailblazers" [ref=e187] [cursor=pointer]:
+                - /url: https://www.facebook.com/profile.php?id=61588199770039
+                - generic [ref=e188]: Facebook — Dog Walking
+                - generic [ref=e189]: NYC Tailblazers
+            - listitem [ref=e190]:
+              - link "Instagram — Cooking @mixed_nd_marinated" [ref=e191] [cursor=pointer]:
+                - /url: https://www.instagram.com/mixed_nd_marinated/
+                - generic [ref=e192]: Instagram — Cooking
+                - generic [ref=e193]: "@mixed_nd_marinated"
+      - generic [ref=e194]:
+        - paragraph [ref=e195]: © 2026 NYC Tailblazers. All rights reserved.
+        - paragraph [ref=e196]: Built with intention. Seasoned with soul.

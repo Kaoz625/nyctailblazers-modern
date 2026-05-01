@@ -1,0 +1,146 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - navigation [ref=e5]:
+      - link "NYC Tailblazers — two dogs NYC·Tailblazers" [ref=e6] [cursor=pointer]:
+        - /url: /NYCTailblazers-Modern
+        - img "NYC Tailblazers — two dogs" [ref=e7]
+        - generic [ref=e34]: NYC·Tailblazers
+      - list [ref=e35]:
+        - listitem [ref=e36]:
+          - link "Dog Walking" [ref=e37] [cursor=pointer]:
+            - /url: /NYCTailblazers-Modern/dog-walking
+        - listitem [ref=e38]:
+          - link "Cooking" [ref=e39] [cursor=pointer]:
+            - /url: /NYCTailblazers-Modern/cooking
+        - listitem [ref=e40]:
+          - link "Websites" [ref=e41] [cursor=pointer]:
+            - /url: /NYCTailblazers-Modern/websites
+        - listitem [ref=e42]:
+          - link "Apps" [ref=e43] [cursor=pointer]:
+            - /url: /NYCTailblazers-Modern/apps
+        - listitem [ref=e44]:
+          - link "AI Agents" [ref=e45] [cursor=pointer]:
+            - /url: /NYCTailblazers-Modern/agents
+        - listitem [ref=e46]:
+          - link "Contact" [ref=e47] [cursor=pointer]:
+            - /url: /NYCTailblazers-Modern/contact
+  - main [ref=e48]:
+    - generic [ref=e50]:
+      - generic [ref=e51]:
+        - paragraph [ref=e53]: Service 01
+        - heading "Dog Walking" [level=1] [ref=e54]:
+          - text: Dog
+          - text: Walking
+        - paragraph [ref=e55]: Premium, attentive dog walking across New York City — born from the love of one spotted dog named Jiggs. Your dog deserves someone who actually cares.
+        - generic [ref=e56]:
+          - link "@nyctailblazers ↗" [ref=e57] [cursor=pointer]:
+            - /url: https://www.instagram.com/nyctailblazers/
+          - link "Facebook ↗" [ref=e58] [cursor=pointer]:
+            - /url: https://www.facebook.com/profile.php?id=61588199770039
+      - img "NYC Tailblazers — original logo, two dogs" [ref=e60]
+    - img [ref=e61]
+    - generic [ref=e81]:
+      - generic [ref=e82]:
+        - heading "Led by Jiggs" [level=3] [ref=e83]
+        - paragraph [ref=e84]: At the heart of every walk is Jiggs — a Louisiana Catahoula Leopard Dog. He's why this all started. Every dog gets the same fierce love he does.
+      - generic [ref=e85]:
+        - heading "Daily Updates" [level=3] [ref=e86]
+        - paragraph [ref=e87]: Photo and GPS check-ins after every walk. You always know exactly where your dog is.
+      - generic [ref=e88]:
+        - heading "Trusted & Insured" [level=3] [ref=e89]
+        - paragraph [ref=e90]: Fully background-checked and insured. Your pet is safe in every sense.
+      - generic [ref=e91]:
+        - heading "Small Groups" [level=3] [ref=e92]
+        - paragraph [ref=e93]: Never more than 4 dogs at once. Every walk gets real, focused attention.
+      - generic [ref=e94]:
+        - heading "NYC Expert" [level=3] [ref=e95]
+        - paragraph [ref=e96]: Best parks, routes, and dog-friendly spots across all 5 boroughs. NYC is our backyard.
+      - generic [ref=e97]:
+        - heading "All Boroughs" [level=3] [ref=e98]
+        - paragraph [ref=e99]: Manhattan, Brooklyn, Queens, the Bronx, Staten Island — we cover it all.
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - paragraph [ref=e103]: In the Field
+        - heading "Life on the leash" [level=2] [ref=e104]
+      - generic [ref=e105]:
+        - img "NYC Tailblazers" [ref=e107]
+        - img "NYC Tailblazers" [ref=e109]
+        - img "NYC Tailblazers" [ref=e111]
+        - img "NYC Tailblazers" [ref=e113]
+        - img "NYC Tailblazers" [ref=e115]
+        - img "NYC Tailblazers" [ref=e117]
+    - img [ref=e118]
+    - generic [ref=e122]:
+      - generic [ref=e123]:
+        - paragraph [ref=e125]: Pricing
+        - heading "Simple, honest rates" [level=2] [ref=e126]
+      - generic [ref=e127]:
+        - generic [ref=e128]:
+          - paragraph [ref=e129]: $25
+          - paragraph [ref=e130]: 30-Min Walk
+          - paragraph [ref=e131]: Great for potty breaks and quick exercise
+        - generic [ref=e132]:
+          - paragraph [ref=e133]: $40
+          - paragraph [ref=e134]: 60-Min Walk
+          - paragraph [ref=e135]: The full NYC experience — parks, streets, adventure
+        - generic [ref=e136]:
+          - paragraph [ref=e137]: $175
+          - paragraph [ref=e138]: Weekly Package (5x)
+          - paragraph [ref=e139]: Best value for daily walking clients
+    - generic [ref=e141]:
+      - heading "Your dog is waiting for its next adventure." [level=2] [ref=e142]:
+        - text: Your dog is waiting
+        - text: for its next adventure.
+      - link "Book a Walk" [ref=e143] [cursor=pointer]:
+        - /url: /NYCTailblazers-Modern/contact
+  - contentinfo [ref=e144]:
+    - img [ref=e145]
+    - generic [ref=e148]:
+      - generic [ref=e149]:
+        - generic [ref=e150]:
+          - img
+          - paragraph [ref=e151]: NYC·Tailblazers
+          - paragraph [ref=e152]: New York City
+          - paragraph [ref=e153]: nyctailblazers.com
+        - generic [ref=e154]:
+          - paragraph [ref=e155]: Services
+          - list [ref=e156]:
+            - listitem [ref=e157]:
+              - link "Dog Walking" [ref=e158] [cursor=pointer]:
+                - /url: /NYCTailblazers-Modern/dog-walking
+            - listitem [ref=e159]:
+              - link "Cooking" [ref=e160] [cursor=pointer]:
+                - /url: /NYCTailblazers-Modern/cooking
+            - listitem [ref=e161]:
+              - link "Websites" [ref=e162] [cursor=pointer]:
+                - /url: /NYCTailblazers-Modern/websites
+            - listitem [ref=e163]:
+              - link "Apps" [ref=e164] [cursor=pointer]:
+                - /url: /NYCTailblazers-Modern/apps
+            - listitem [ref=e165]:
+              - link "AI Agents" [ref=e166] [cursor=pointer]:
+                - /url: /NYCTailblazers-Modern/agents
+            - listitem [ref=e167]:
+              - link "Contact" [ref=e168] [cursor=pointer]:
+                - /url: /NYCTailblazers-Modern/contact
+        - generic [ref=e169]:
+          - paragraph [ref=e170]: Follow
+          - list [ref=e171]:
+            - listitem [ref=e172]:
+              - link "Instagram — Dog Walking @nyctailblazers" [ref=e173] [cursor=pointer]:
+                - /url: https://www.instagram.com/nyctailblazers/
+                - generic [ref=e174]: Instagram — Dog Walking
+                - generic [ref=e175]: "@nyctailblazers"
+            - listitem [ref=e176]:
+              - link "Facebook — Dog Walking NYC Tailblazers" [ref=e177] [cursor=pointer]:
+                - /url: https://www.facebook.com/profile.php?id=61588199770039
+                - generic [ref=e178]: Facebook — Dog Walking
+                - generic [ref=e179]: NYC Tailblazers
+            - listitem [ref=e180]:
+              - link "Instagram — Cooking @mixed_nd_marinated" [ref=e181] [cursor=pointer]:
+                - /url: https://www.instagram.com/mixed_nd_marinated/
+                - generic [ref=e182]: Instagram — Cooking
+                - generic [ref=e183]: "@mixed_nd_marinated"
+      - generic [ref=e184]:
+        - paragraph [ref=e185]: © 2026 NYC Tailblazers. All rights reserved.
+        - paragraph [ref=e186]: Built with intention. Seasoned with soul.
