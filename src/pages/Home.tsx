@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { useReveal } from '../hooks/useReveal'
 import Logo from '../components/Logo'
@@ -72,6 +72,15 @@ const heroPhotos = [
 
 export default function Home() {
   useReveal()
+  const calendlyRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    const script = document.createElement('script')
+    script.src = 'https://assets.calendly.com/assets/external/widget.js'
+    script.async = true
+    document.body.appendChild(script)
+    return () => { document.body.removeChild(script) }
+  }, [])
 
   useEffect(() => {
     const words = ['Websites.', 'Apps.', 'Agents.', 'Recipes.', 'Results.']
@@ -206,6 +215,24 @@ export default function Home() {
             ))}
           </div>
         </div>
+      </section>
+
+      {/* ── Booking ── */}
+      <section className="py-32 px-6 max-w-4xl mx-auto">
+        <div className="reveal mb-12 text-center">
+          <span className="gold-line mx-auto mb-6" />
+          <p className="text-xs tracking-[0.3em] uppercase text-emerald mb-3">Book a Walk</p>
+          <h2 className="font-display text-4xl md:text-5xl font-light text-fog">
+            Ready to Book?<br />
+            <span className="italic text-fog/50">Schedule Your Walk</span>
+          </h2>
+        </div>
+        <div
+          ref={calendlyRef}
+          className="calendly-inline-widget rounded-sm overflow-hidden"
+          data-url="https://calendly.com/nyctailblazers"
+          style={{ minWidth: '320px', height: '700px' }}
+        />
       </section>
 
       {/* ── CTA ── */}

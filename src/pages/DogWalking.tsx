@@ -41,8 +41,11 @@ const features = [
 ]
 
 const pricing = [
-  { name: '30-Min Walk', price: '$25', note: 'Great for potty breaks and quick exercise' },
-  { name: '60-Min Walk', price: '$40', note: 'The full NYC experience — parks, streets, adventure' },
+  { name: '30-Min Solo Walk', price: '$25', note: 'Great for potty breaks and quick exercise' },
+  { name: '60-Min Solo Walk', price: '$40', note: 'The full NYC experience — parks, streets, adventure' },
+  { name: 'Group Walk', price: '$20', note: 'Socialization and exercise with other dogs' },
+  { name: 'Drop-In Visit', price: '$20', note: 'Check-in, feeding, playtime, and love' },
+  { name: 'Overnight Boarding', price: '$75/night', note: 'Your dog stays safe, happy, and at home with us' },
   { name: 'Weekly Package (5x)', price: '$175', note: 'Best value for daily walking clients' },
 ]
 
@@ -141,9 +144,9 @@ export default function DogWalking() {
             <p className="text-xs tracking-[0.3em] uppercase text-emerald mb-3">Pricing</p>
             <h2 className="font-display text-4xl font-light text-fog">Simple, honest rates</h2>
           </div>
-          <div className="grid md:grid-cols-3 gap-px bg-forest/10">
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-px bg-forest/10">
             {pricing.map((p, i) => (
-              <div key={i} className={`reveal reveal-delay-${i + 1} bg-ink p-10`}>
+              <div key={i} className={`reveal reveal-delay-${(i % 3) + 1} bg-ink p-10`}>
                 <p className="font-display text-4xl text-gold font-light mb-2">{p.price}</p>
                 <p className="text-fog font-medium tracking-wide text-sm mb-3">{p.name}</p>
                 <p className="text-fog/40 text-xs leading-relaxed">{p.note}</p>
