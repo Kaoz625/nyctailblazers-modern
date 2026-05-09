@@ -1,37 +1,37 @@
-# Replit Agent Task Spec
+# Replit Agent Task: nyctailblazers-modern
 
-## Instructions for Replit Agent
-You are building/improving this project. Read this file carefully before touching any code.
-Commit all changes with prefix "replit: " and push to main when done.
-When all tasks are complete, fill out .replit-tasks/RESULTS.md and commit+push.
+## Goal
+Polish the existing React/Vite NYC Tailblazers site into a production-ready storefront with Calendly booking integration and deploy to Cloudflare Pages. The site should feel premium, modern, and convert visitors into bookings.
 
-## Stack Rules (non-negotiable)
-- Static → Cloudflare Pages (never Vercel)
-- DB → Supabase self-hosted Docker (never cloud Supabase)
-- Auth → NextAuth.js (free, not Auth0/Clerk)
-- AI → Claude Sonnet 4.6 via Anthropic API (model: claude-sonnet-4-6)
-- Payments (adult) → CCBill or Segpay only
+## Tasks
+1. Audit existing src/ components and identify all incomplete or placeholder sections
+2. Add a sticky navigation bar with smooth scroll links: Home, Services, About, Book Now
+3. Integrate Calendly inline widget (embed script) on a dedicated `/book` route or modal triggered by "Book Now" CTA buttons throughout the site — use Calendly URL: https://calendly.com/nyctailblazers
+4. Polish hero section: full-viewport background, headline, subheadline, and primary CTA button linking to Calendly booking
+5. Build a Services section with cards for each NYC Tailblazers service offering (dog walking, group runs, training sessions) — use realistic placeholder copy if needed
+6. Add Testimonials section with 3-5 client testimonials (realistic placeholder content)
+7. Add Footer with social links (Instagram, TikTok, X), contact email, and copyright
+8. Optimize all images with lazy loading and proper alt text for SEO
+9. Add Open Graph and Twitter Card meta tags to index.html for social sharing
+10. Set up Cloudflare Pages `_headers` file with security headers (X-Frame-Options, CSP, etc.) and cache rules
+11. Ensure the build output (dist/) is clean and production-ready: run `npm run build` and fix any errors
+12. Verify mobile responsiveness — all sections must look good at 375px width
 
-## Improvements To Make
-1. **Add booking section** — Embed Calendly free widget (https://calendly.com) in a dedicated "Book Now" section. Use Calendly's free inline embed script. Section should be visually prominent with a CTA above it.
-2. **Add real service pricing** — Create a pricing/services section with these tiers: 30-min solo walk ($25), 60-min solo walk ($40), group walk ($20), drop-in visit ($20), overnight boarding ($75/night). Style with cards using Tailwind.
-3. **Connect contact form to email** — Add a contact form (name, email, dog name, message) that submits to Formspree (https://formspree.io — free tier, no backend needed). Use the Kaoz625 GitHub email or create a free Formspree endpoint.
-4. **Ensure mobile responsive** — Audit every section at 375px, 768px, 1280px. Fix any overflow, font-size, padding, or layout issues. Test the nav hamburger menu on mobile.
-5. **Add social media links** — Add Instagram, Facebook, and TikTok icons linking to @NYCTailblazers on each platform. Place in header nav and footer. Use Heroicons or inline SVG.
-6. **Remove gh-pages deployment** — Remove the gh-pages package and deploy script from package.json. Replace with Cloudflare Pages instructions.
-7. **Add Cloudflare Pages deploy config** — Create a `_headers` file in public/ with security headers. Add a `wrangler.toml` with `[site]` bucket = "dist". Add build instructions to README: `npm run build` → deploy `dist/` to Cloudflare Pages.
-8. **SEO meta tags** — Add og:title, og:description, og:image, twitter:card meta tags to index.html. Title: "NYC Tailblazers — Professional Dog Walking & Pet Care NYC". Description should mention neighborhoods served.
-9. **Fix any TypeScript/lint errors** — Run `npm run build` and fix all errors before committing.
+## Tech Stack
+- React 18 + TypeScript
+- Vite (build tool)
+- Tailwind CSS
+- Calendly embed widget (script + React component)
+- Cloudflare Pages (static deploy from dist/)
 
-## Do Not Touch
-- /images/ directory (keep existing photos)
-- tailwind.config.js color scheme (keep brand colors)
+## Deploy Target
+Cloudflare Pages — connect the GitHub repo `Kaoz625/nyctailblazers-modern`, set build command `npm run build`, output directory `dist`. Never Vercel.
 
-## Definition of Done
-- [ ] All improvements implemented and working
-- [ ] No TypeScript/lint errors (`npm run build` passes)
-- [ ] Calendly widget loads in booking section
-- [ ] Contact form submits successfully (test with a real submission)
-- [ ] Site renders correctly on mobile (375px)
-- [ ] Social media links present in header and footer
-- [ ] Pushed to main with "replit: " commit prefix
+## Done When
+- [ ] Calendly booking widget is embedded and functional (click "Book Now" → opens Calendly)
+- [ ] All major page sections render without console errors
+- [ ] `npm run build` completes with zero errors or warnings
+- [ ] Open Graph meta tags present in HTML head (og:title, og:description, og:image)
+- [ ] `_headers` file exists with security headers
+- [ ] Site is fully mobile-responsive at 375px viewport
+- [ ] All changes pushed to `Kaoz625/nyctailblazers-modern` main branch
